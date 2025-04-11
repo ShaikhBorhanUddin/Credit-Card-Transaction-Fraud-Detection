@@ -19,6 +19,7 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 
 ## 📁 Project Structure
 ```bash
+├── Images/
 ├── dataset/            # Dataset files
 ├── src/                # Source code
 │   ├── images
