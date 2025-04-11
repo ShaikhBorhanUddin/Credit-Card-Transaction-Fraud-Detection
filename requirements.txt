@@ -1,0 +1,26 @@
+# Core Libraries
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning Models & Tools
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Imbalanced Data Handling
+imbalanced-learn
+
+# Jupyter Notebook (for development and sharing)
+notebook
+jupyterlab
+
+# Optional: For better progress bars and logging
+tqdm
+
+# Optional: If you are saving models
+joblib
