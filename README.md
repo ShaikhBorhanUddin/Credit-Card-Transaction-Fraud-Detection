@@ -21,7 +21,7 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 ```bash
 ├── dataset/            # Dataset files
 ├── src/                # Source code
-│   │
+│   ├── images
 │   └── evaluation.py
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
