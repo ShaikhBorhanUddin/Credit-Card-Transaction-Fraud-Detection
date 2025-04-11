@@ -3,7 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)  
 ![Status](https://img.shields.io/badge/Status-Completed-green.svg)  
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
-
+###
+![Dashboard](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/credit_card.png)
 ## 🚀 Project Overview
 
 This project focuses on detecting fraudulent credit card transactions using both traditional Machine Learning models and a Convolutional Neural Network (CNN).  
