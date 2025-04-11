@@ -11,15 +11,12 @@
 This project focuses on detecting fraudulent credit card transactions using both traditional Machine Learning models and a Convolutional Neural Network (CNN).  
 Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-score**, and **ROC-AUC** rather than just accuracy.  
 
----
-
 ## 📊 Dataset Overview
 - **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 - **Total transactions**: 284,807  
 - **Fraudulent transactions**: 492 (0.172%)  
 - **Features**: V1 - V28 (PCA transformed), Time, Amount, and Class (0 = Legit, 1 = Fraud)  
 
----
 ## 📁 Project Structure
 ```bash
 ├── data/               # Dataset files
@@ -39,8 +36,6 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 4. Model Training & Evaluation across **10 different models**  
 5. Performance Comparison and Conclusion  
 
----
-
 ## ✅ Model Evaluation Summary (All 10 Tests)
 
 | Test | Model                | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
@@ -56,15 +51,11 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 | 9    | LightGBM             | 99.97%   | 91.66%    | 76.19% | 83.33%   | 0.968   |
 | 10   | CNN (Deep Learning)  | 99.97%   | 90.00%    | 76.19% | 82.35%   | 0.965   |
 
----
-
 ## 🎯 Key Takeaways
 - Accuracy alone is misleading for imbalanced datasets; **Recall**, **F1-score**, and **AUC** are critical.  
 - **XGBoost**, **Gradient Boosting**, and **LightGBM** consistently performed the best.  
 - The custom-built **CNN** model showed excellent results, proving deep learning can complement traditional models.  
 - **Naive Bayes** achieved high recall but with excessive false positives.  
-
----
 
 ## 🛠 Technologies Used
 - Python  
@@ -74,17 +65,11 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 - XGBoost, LightGBM  
 - TensorFlow & Keras (for CNN)  
 
----
-
----
-
 ## ▶️ How to Run Locally
 1. Clone the repository:  
 2. Open the notebook in Jupyter or Google Colab.  
 3. Download the dataset from Kaggle and place it in the project directory.  
 4. Run all cells sequentially to reproduce the results.  
-
----
 
 ## 📬 Contact
 - **LinkedIn**: [Shaikh Borhan Uddin](https://www.linkedin.com/in/shaikh-borhan-uddin/)  
