@@ -19,11 +19,9 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 
 ## 📁 Project Structure
 ```bash
-├── data/               # Dataset files
-├── notebooks/          # Jupyter notebooks
+├── dataset/            # Dataset files
 ├── src/                # Source code
-│   ├── data_preprocessing.py
-│   ├── model_training.py
+│   |
 │   └── evaluation.py
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
