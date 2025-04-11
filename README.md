@@ -49,6 +49,9 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 | 9    | LightGBM             | 99.97%   | 91.66%    | 76.19% | 83.33%   | 0.968   |
 | 10   | CNN (Deep Learning)  | 99.97%   | 90.00%    | 76.19% | 82.35%   | 0.965   |
 
+## ROC Curve Comparison
+![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
+
 ## 🎯 Key Takeaways
 - Accuracy alone is misleading for imbalanced datasets; **Recall**, **F1-score**, and **AUC** are critical.  
 - **XGBoost**, **Gradient Boosting**, and **LightGBM** consistently performed the best.  
