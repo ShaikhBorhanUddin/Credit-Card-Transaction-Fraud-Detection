@@ -20,7 +20,7 @@ Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-sc
 ## 📁 Project Structure
 ```bash
 ├── Images/
-├── dataset/            # Dataset files
+├── dataset/            # Dataset files too large to upload in guithub
 ├── src/                # Source code
 │   ├── images
 │   └── Credit_Card_Fraud_Detection.ipynb
