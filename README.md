@@ -24,6 +24,72 @@ Each model was evaluated using precision, recall, F1-score, and ROC-AUC, with sp
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. It includes transactions from two days, with a total of 284,807 transactions, of which 492 are identified as fraudulent. This dataset is highly unbalanced, as the fraudulent transactions (positive class) represent only 0.172% of all transactions.
 
 The dataset comprises only numerical input variables resulting from a PCA (Principal Component Analysis) transformation. Due to confidentiality issues, we cannot provide the original features or additional background information about the data. The features labeled V1, V2, …, V28 are the principal components obtained through PCA. The features that have not undergone PCA transformation are 'Time' and 'Amount.' The 'Time' feature indicates the seconds elapsed from the first transaction in the dataset, while the 'Amount' feature represents the transaction amount, which can be utilized for example-dependent cost-sensitive learning. The 'Class' feature serves as the response variable, with a value of 1 indicating fraud and 0 indicating a legitimate transaction.
+
+## 📊 Dataset Description
+This project uses the Fraud Detection Dataset provided by Kartik2112 on Kaggle. The dataset simulates real-world credit card transactions to train and evaluate fraud detection models.
+
+📁 Dataset Overview
+
+- Total Rows: 636,262
+- Total Features: 9 (including target variable)
+- Type: Tabular
+- Source: Synthetic Data (simulated for academic/research purposes)
+
+🔍 Features
+
+| Column Name      | Description                                         |
+|------------------|-----------------------------------------------------|
+| `unnamed`        | Serial of the transactions                          |
+| `trans_date_trans_time`           | Exact time of the transactions in DD-MM-YYYY-HH:MM format |
+| `cc_num`         | Credit card number                         |
+| `merchant`       | Merchant shop, where the transaction was completed  |
+| `category`       | Type of the product purchased                       |
+| `amt`            | Amount of the transaction                           |
+| `first`          | First name of customer                              |
+| `last`           | Last name of customer                               |
+| `gender`         | Male (`M`) or Female (`F`)                              |
+| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
+| `step`           | Time step (in hours) from the start of simulation   |
+| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
+| `amount`         | Amount of the transaction                           |
+| `nameOrig`       | Customer ID of origin account                       |
+| `oldbalanceOrg`  | Initial balance before the transaction              |
+| `newbalanceOrig` | New balance after the transaction                   |
+| `nameDest`       | Customer ID of destination account                  |
+| `oldbalanceDest` | Initial balance of the recipient                    |
+| `newbalanceDest` | New balance of the recipient                        |
+| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
+| `step`           | Time step (in hours) from the start of simulation   |
+| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
+| `amount`         | Amount of the transaction                           |
+| `nameOrig`       | Customer ID of origin account                       |
+| `oldbalanceOrg`  | Initial balance before the transaction              |
+| `newbalanceOrig` | New balance after the transaction                   |
+| `nameDest`       | Customer ID of destination account                  |
+| `oldbalanceDest` | Initial balance of the recipient                    |
+| `newbalanceDest` | New balance of the recipient                        |
+| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
+| `step`           | Time step (in hours) from the start of simulation   |
+| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
+| `amount`         | Amount of the transaction                           |
+| `nameOrig`       | Customer ID of origin account                       |
+| `oldbalanceOrg`  | Initial balance before the transaction              |
+| `newbalanceOrig` | New balance after the transaction                   |
+| `nameDest`       | Customer ID of destination account                  |
+| `oldbalanceDest` | Initial balance of the recipient                    |
+| `newbalanceDest` | New balance of the recipient                        |
+| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
+
+
+`Unnamed: 0` `trans_date_trans_time` `cc_num` `merchant` `category`
+       `amt'`, 'first', 'last', 'gender', 'street', 'city', 'state', 'zip',
+       'lat', 'long', 'city_pop', 'job', 'dob', 'trans_num', 'unix_time',
+       'merch_lat', 'merch_long', 'is_fraud'
+
+⚠️ Note
+The dataset is imbalanced, with a small proportion of fraudulent transactions. This presents a realistic challenge often faced in fraud detection systems.
+
+No personally identifiable information (PII) is included. All customer IDs are anonymized.
 ## 📁 Project Structure
 ```bash
 ├── Images/
