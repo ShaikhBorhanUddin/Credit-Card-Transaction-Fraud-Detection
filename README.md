@@ -16,24 +16,13 @@ A total of 10 different models were implemented and compared to ensure thorough 
 Each model was evaluated using precision, recall, F1-score, and ROC-AUC, with special focus on handling class imbalance — a key challenge in fraud detection tasks. This comprehensive approach enhances the reliability and practical relevance of the final solution.
 
 ## 📊 Dataset
-- **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- **Total transactions**: 284,807  
-- **Fraudulent transactions**: 492 (0.172%)  
-- **Features**: V1 - V28 (PCA transformed), Time, Amount, and Class (0 = Legit, 1 = Fraud)  
 
-The dataset contains transactions made by credit cards in September 2013 by European cardholders. It includes transactions from two days, with a total of 284,807 transactions, of which 492 are identified as fraudulent. This dataset is highly unbalanced, as the fraudulent transactions (positive class) represent only 0.172% of all transactions.
-
-The dataset comprises only numerical input variables resulting from a PCA (Principal Component Analysis) transformation. Due to confidentiality issues, we cannot provide the original features or additional background information about the data. The features labeled V1, V2, …, V28 are the principal components obtained through PCA. The features that have not undergone PCA transformation are 'Time' and 'Amount.' The 'Time' feature indicates the seconds elapsed from the first transaction in the dataset, while the 'Amount' feature represents the transaction amount, which can be utilized for example-dependent cost-sensitive learning. The 'Class' feature serves as the response variable, with a value of 1 indicating fraud and 0 indicating a legitimate transaction.
-
-## 📊 Dataset Description
-This project uses the Fraud Detection Dataset provided by Kartik2112 on Kaggle. The dataset simulates real-world credit card transactions to train and evaluate fraud detection models.
-
-📁 Dataset Overview
+This project leverages an insightful Fraud Detection Dataset from Kartik2112 on Kaggle, which is essential for training and evaluating robust fraud detection models. Spanning real-world credit card transactions from January 1, 2019, to December 31, 2020, this dataset includes a comprehensive mix of both legitimate and fraudulent activities, encompassing transactions from 1,000 customers across 800 merchants. Generated with the advanced Sparkov Data Generation tool created by Brandon Harris, the data provides a realistic simulation for effective analysis. After running the simulation for the designated period, the resulting files were meticulously combined and standardized. No personally identifiable information (PII) is included. All customer IDs are anonymized. Notably, the 'is_fraud' feature acts as the key response variable, with a value of 1 representing fraud and a value of 0 indicating a legitimate transaction, making it a critical asset for any fraud detection effort.
 
 - Total Rows: 636,262
 - Total Features: 9 (including target variable)
 - Type: Tabular
-- Source: Synthetic Data (simulated for academic/research purposes)
+- **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
 🔍 Features
 
@@ -41,55 +30,32 @@ This project uses the Fraud Detection Dataset provided by Kartik2112 on Kaggle. 
 |------------------|-----------------------------------------------------|
 | `unnamed`        | Serial of the transactions                          |
 | `trans_date_trans_time`           | Exact time of the transactions in DD-MM-YYYY-HH:MM format |
-| `cc_num`         | Credit card number                         |
+| `cc_num`         | Credit card number                                  |
 | `merchant`       | Merchant shop, where the transaction was completed  |
 | `category`       | Type of the product purchased                       |
 | `amt`            | Amount of the transaction                           |
 | `first`          | First name of customer                              |
 | `last`           | Last name of customer                               |
-| `gender`         | Male (`M`) or Female (`F`)                              |
+| `gender`         | Male (`M`) or Female (`F`)                          |
+| `street`         | Residential address of the card holder              |
+| `city`           | Residential city of the card holder                 |
+| `state`          | Residential state of the card holder                |
+| `zip`            | Postal code of the card holder                      |
+| `lat`            | Latitude                                            |
+| `long`           | Longitude                                           |
+| `city_pop`       | Population of customer's residential city           |
+| `job`            | Job descriptionof the customer                      |
+| `dob`            | Customer's date of birth                            |
+| `trans_num`      | unique transaction id generated while purchasing    |
+| `unix_time`      | unix timestamp (the numebr of seconds since January 1, 1970       |
+| `merch_lat`      | Merchant's latitude                                 |
+| `merch_long`     | Merchant's longitude                                |
 | `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
-| `step`           | Time step (in hours) from the start of simulation   |
-| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
-| `amount`         | Amount of the transaction                           |
-| `nameOrig`       | Customer ID of origin account                       |
-| `oldbalanceOrg`  | Initial balance before the transaction              |
-| `newbalanceOrig` | New balance after the transaction                   |
-| `nameDest`       | Customer ID of destination account                  |
-| `oldbalanceDest` | Initial balance of the recipient                    |
-| `newbalanceDest` | New balance of the recipient                        |
-| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
-| `step`           | Time step (in hours) from the start of simulation   |
-| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
-| `amount`         | Amount of the transaction                           |
-| `nameOrig`       | Customer ID of origin account                       |
-| `oldbalanceOrg`  | Initial balance before the transaction              |
-| `newbalanceOrig` | New balance after the transaction                   |
-| `nameDest`       | Customer ID of destination account                  |
-| `oldbalanceDest` | Initial balance of the recipient                    |
-| `newbalanceDest` | New balance of the recipient                        |
-| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
-| `step`           | Time step (in hours) from the start of simulation   |
-| `type`           | Type of transaction (e.g., PAYMENT, TRANSFER, CASH_OUT) |
-| `amount`         | Amount of the transaction                           |
-| `nameOrig`       | Customer ID of origin account                       |
-| `oldbalanceOrg`  | Initial balance before the transaction              |
-| `newbalanceOrig` | New balance after the transaction                   |
-| `nameDest`       | Customer ID of destination account                  |
-| `oldbalanceDest` | Initial balance of the recipient                    |
-| `newbalanceDest` | New balance of the recipient                        |
-| `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
-
-
-`Unnamed: 0` `trans_date_trans_time` `cc_num` `merchant` `category`
-       `amt'`, 'first', 'last', 'gender', 'street', 'city', 'state', 'zip',
-       'lat', 'long', 'city_pop', 'job', 'dob', 'trans_num', 'unix_time',
-       'merch_lat', 'merch_long', 'is_fraud'
 
 ⚠️ Note
+
 The dataset is imbalanced, with a small proportion of fraudulent transactions. This presents a realistic challenge often faced in fraud detection systems.
 
-No personally identifiable information (PII) is included. All customer IDs are anonymized.
 ## 📁 Project Structure
 ```bash
 ├── Images/
