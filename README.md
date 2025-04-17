@@ -76,8 +76,9 @@ Confusion Matrix of 9 machine learning models are included here. Click image for
 <p align="left">
   <img src="Images/cm_ML_Models.png" width="998"/>
 </p>
+The imbalance present in the dataset significantly impacted the performance of models like Logistic Regression, Support Vector Machine, K-Nearest Neighbor, and SGD Classifier; preventing them from achieving optimal results. However, other models demonstrated remarkable effectiveness and delivered satisfactory outcomes.
 
-## ROC Curve Comparison
+## 📊 ROC Curve Comparison
 ![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
 
 ## 🎯 Key Takeaways
