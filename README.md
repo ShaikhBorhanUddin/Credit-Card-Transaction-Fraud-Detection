@@ -8,8 +8,7 @@
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/credit_card_image.png?raw=true)
 ## 🚀 Project Overview
 
-This project focuses on detecting fraudulent credit card transactions using both traditional Machine Learning models and a Convolutional Neural Network (CNN).  
-Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-score**, and **ROC-AUC** rather than just accuracy.  
+Credit card fraud continues to be a major challenge for both consumers and financial institutions, leading to billions of dollars in losses annually. With the growing volume of online transactions, detecting fraudulent activity in real time has become more critical than ever. This project addresses this pressing issue by leveraging machine learning to develop a data-driven solution aimed at identifying fraudulent credit card transactions with greater accuracy and efficiency.
 
 ## 📊 Dataset
 - **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
