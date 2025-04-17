@@ -59,7 +59,7 @@ The dataset is imbalanced, with a small proportion of fraudulent transactions. T
 ## 📁 Project Structure
 ```bash
 ├── Images/
-├── dataset/            # Dataset files too large to upload in guithub
+├── dataset/            # Dataset files too large to upload in repository
 ├── src/                # Source code
 │   ├── images
 │   └── Credit_Card_Fraud_Detection.ipynb
