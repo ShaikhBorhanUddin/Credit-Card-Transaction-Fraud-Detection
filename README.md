@@ -126,5 +126,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ## 📬 Contact
-- **LinkedIn**: [Shaikh Borhan Uddin](https://www.linkedin.com/in/shaikh-borhan-uddin/)  
+- **LinkedIn**: [Shaikh Borhan Uddin](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
 - **GitHub**: [ShaikhBorhanUddin](https://github.com/ShaikhBorhanUddin)  
