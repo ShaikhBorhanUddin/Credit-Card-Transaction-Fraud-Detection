@@ -11,7 +11,7 @@
 This project focuses on detecting fraudulent credit card transactions using both traditional Machine Learning models and a Convolutional Neural Network (CNN).  
 Due to the dataset's high imbalance, the focus was placed on **Recall**, **F1-score**, and **ROC-AUC** rather than just accuracy.  
 
-## 📊 Dataset Overview
+## 📊 Dataset
 - **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 - **Total transactions**: 284,807  
 - **Fraudulent transactions**: 492 (0.172%)  
