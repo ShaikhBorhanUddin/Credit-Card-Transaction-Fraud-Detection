@@ -19,8 +19,8 @@ Each model was evaluated using precision, recall, F1-score, and ROC-AUC, with sp
 
 This project leverages an insightful Fraud Detection Dataset from Kartik2112 on Kaggle, which is essential for training and evaluating robust fraud detection models. Spanning real-world credit card transactions from January 1, 2019, to December 31, 2020, this dataset includes a comprehensive mix of both legitimate and fraudulent activities, encompassing transactions from 1,000 customers across 800 merchants. Generated with the advanced Sparkov Data Generation tool created by Brandon Harris, the data provides a realistic simulation for effective analysis. After running the simulation for the designated period, the resulting files were meticulously combined and standardized. No personally identifiable information (PII) is included. All customer IDs are anonymized. Notably, the 'is_fraud' feature acts as the key response variable, with a value of 1 representing fraud and a value of 0 indicating a legitimate transaction, making it a critical asset for any fraud detection effort.
 
-- Total Rows: 636,262
-- Total Features: 9 (including target variable)
+- Total Rows: 1852393
+- Total Features: 23 (including target variable)
 - Type: Tabular
 - **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
@@ -155,6 +155,16 @@ For this reason, Precision-Recall curves and Recall-focused metrics (like F1-Sco
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## 🚀 Future Development
+
+- Implement real-time fraud detection using a streaming data pipeline (e.g., Kafka + Spark).
+- Explore advanced models like XGBoost, CatBoost, or deep learning architectures.
+- Perform feature engineering to improve detection accuracy.
+- Address class imbalance with SMOTE, ADASYN, or cost-sensitive learning.
+- Integrate model explainability (e.g., SHAP, LIME) to interpret predictions.
+- Deploy the model with a REST API using FastAPI or Flask.
+- Build an interactive dashboard for monitoring fraud detection performance.
 
 
 ## 📬 Contact
