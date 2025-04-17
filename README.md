@@ -76,6 +76,11 @@ The dataset comprises only numerical input variables resulting from a PCA (Princ
 3. Download the dataset from Kaggle and place it in the project directory.  
 4. Run all cells sequentially to reproduce the results.  
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 ## 📬 Contact
 - **LinkedIn**: [Shaikh Borhan Uddin](https://www.linkedin.com/in/shaikh-borhan-uddin/)  
 - **GitHub**: [ShaikhBorhanUddin](https://github.com/ShaikhBorhanUddin)  
