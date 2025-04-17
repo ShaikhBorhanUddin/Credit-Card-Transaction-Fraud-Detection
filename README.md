@@ -47,7 +47,7 @@ This project leverages an insightful Fraud Detection Dataset from Kartik2112 on 
 | `job`            | Job descriptionof the customer                      |
 | `dob`            | Customer's date of birth                            |
 | `trans_num`      | unique transaction id generated while purchasing    |
-| `unix_time`      | unix timestamp (the numebr of seconds since January 1, 1970       |
+| `unix_time`      | unix timestamp (the numebr of seconds since January 1, 1970)       |
 | `merch_lat`      | Merchant's latitude                                 |
 | `merch_long`     | Merchant's longitude                                |
 | `isFraud`        | Target variable: `1` if fraudulent, else `0`        |
