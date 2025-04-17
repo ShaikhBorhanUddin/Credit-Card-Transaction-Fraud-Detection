@@ -70,6 +70,12 @@ Key takeaways from the evaluation:
 
 Overall, XGBoost, LightGBM, and Random Forest emerged as the top-performing models, with strong ROC-AUC scores and recall — making them well-suited for identifying rare but critical fraud cases in real-world financial systems.
 
+## 🧩 Confusion Matrices
+Confusion Matrix of 9 machine learning models are included here. Click image for enlarged view.
+
+<p align="left">
+  <img src="Images/cm_ML_Models.png" width="998"/>
+</p>
 
 ## ROC Curve Comparison
 ![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
