@@ -122,7 +122,7 @@ This experiment revealed that CNN models struggled to accurately identify spam, 
 
 In this experiment, ROC curves were generated for all models to compare their ability to distinguish between fraudulent and legitimate transactions. Models like XGBoost, LightGBM, and Random Forest showed ROC curves that hugged the top-left corner, indicating strong discriminatory power.
 
-`⚠️ Limitations of ROC in Imbalanced Datasets`
+**`⚠️ Limitations of ROC in Imbalanced Datasets`**
 
 While ROC curves are widely used, they can be misleading in highly imbalanced datasets — such as this one, where fraudulent transactions make up a tiny fraction of the total data. Here’s why:
 - False Positive Rate can appear low even when the model makes many false predictions, simply because the number of negative (legit) cases is so high.
