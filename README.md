@@ -8,7 +8,12 @@
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/credit_card_image.png?raw=true)
 ## 🚀 Project Overview
 
-Credit card fraud continues to be a major challenge for both consumers and financial institutions, leading to billions of dollars in losses annually. With the growing volume of online transactions, detecting fraudulent activity in real time has become more critical than ever. This project addresses this pressing issue by leveraging machine learning to develop a data-driven solution aimed at identifying fraudulent credit card transactions with greater accuracy and efficiency.
+Credit card fraud continues to be a major challenge for both consumers and financial institutions, leading to billions of dollars in losses annually. With the growing volume of online transactions, detecting fraudulent activity in real time has become more critical than ever. This project addresses this pressing issue by leveraging machine learning to develop a data-driven solution aimed at identifying fraudulent credit card transactions with greater accuracy and efficiency. 
+A total of 10 different models were implemented and compared to ensure thorough experimentation and performance benchmarking. These include:
+
+`Logistic Regression` `Decision Tree` `Random Forest` `K-Nearest Neighbors (KNN)` `Support Vector Machine (SVM)` `Naive Bayes` `XGBoost` `LightGBM` `Gradient Boosting` `CNN`
+
+Each model was evaluated using precision, recall, F1-score, and ROC-AUC, with special focus on handling class imbalance — a key challenge in fraud detection tasks. This comprehensive approach enhances the reliability and practical relevance of the final solution.
 
 ## 📊 Dataset
 - **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
@@ -38,8 +43,9 @@ The dataset comprises only numerical input variables resulting from a PCA (Princ
 4. Model Training & Evaluation across **10 different models**  
 5. Performance Comparison and Conclusion  
 
-## ✅ Model Evaluation Summary (All 10 Tests)
+## 📈 Model Evaluation Summary
 
+Performance Matrices of all 10 tested models are included here.
 | Test | Model                | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |------|----------------------|----------|-----------|--------|----------|---------|
 | 1    | Logistic Regression  | 99.93%   | 85.71%    | 57.14% | 68.57%   | 0.936   |
@@ -52,6 +58,18 @@ The dataset comprises only numerical input variables resulting from a PCA (Princ
 | 8    | Gradient Boosting    | 99.97%   | 91.66%    | 76.19% | 83.33%   | 0.969   |
 | 9    | LightGBM             | 99.97%   | 91.66%    | 76.19% | 83.33%   | 0.968   |
 | 10   | CNN (Deep Learning)  | 99.97%   | 90.00%    | 76.19% | 82.35%   | 0.965   |
+
+To assess the effectiveness of each model in detecting fraudulent transactions, multiple evaluation metrics were considered — with a strong emphasis on Recall, Precision, F1-Score, and ROC-AUC. These metrics are particularly crucial in fraud detection, where minimizing false negatives (i.e., missing fraudulent transactions) is more important than overall accuracy.
+
+Key takeaways from the evaluation:
+
+-  XGBoost and LightGBM consistently delivered the highest performance across most metrics, showcasing their ability to handle class imbalance and capture complex patterns in the data.
+-  Random Forest performed well by balancing precision and recall, making it a reliable model for real-world deployment with proper tuning.
+-  Logistic Regression and Support Vector Machine showed solid precision but slightly lower recall, which could result in undetected fraud cases.
+-  Simpler models like K-Nearest Neighbors (KNN) and Naive Bayes showed relatively lower performance, likely due to their limitations in handling high-dimensional and imbalanced datasets.
+
+Overall, XGBoost, LightGBM, and Random Forest emerged as the top-performing models, with strong ROC-AUC scores and recall — making them well-suited for identifying rare but critical fraud cases in real-world financial systems.
+
 
 ## ROC Curve Comparison
 ![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
