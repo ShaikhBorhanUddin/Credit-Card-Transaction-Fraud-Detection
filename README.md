@@ -1,8 +1,8 @@
 # Credit Card Transaction Fraud Detection Project
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)  
-![Status](https://img.shields.io/badge/Status-Completed-green.svg)  
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Model](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg)]() [![Logistic Regression](https://img.shields.io/badge/-Random%20Forest-green.svg)]() [![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-orange.svg)]() [![KNN](https://img.shields.io/badge/-KNN-purple.svg)]() [![SVM](https://img.shields.io/badge/-SVM-red.svg)]() [![Naive Bayes](https://img.shields.io/badge/-Naive%20Bayes-yellow.svg)]() [![XGBoost](https://img.shields.io/badge/-XGBoost-brightgreen.svg)](https://xgboost.readthedocs.io/) [![LightGBM](https://img.shields.io/badge/-LightGBM-lightgrey.svg)](https://lightgbm.readthedocs.io/) [![CatBoost](https://img.shields.io/badge/-CatBoost-blueviolet.svg)](https://catboost.ai/) [![CNN](https://img.shields.io/badge/-CNN-deeppink.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]() [![Status](https://img.shields.io/badge/Status-Completed-green.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+
+![Model](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg) 
+[![Logistic Regression](https://img.shields.io/badge/-Random%20Forest-green.svg)]() [![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-orange.svg)]() [![KNN](https://img.shields.io/badge/-KNN-purple.svg)]() [![SVM](https://img.shields.io/badge/-SVM-red.svg)]() [![Naive Bayes](https://img.shields.io/badge/-Naive%20Bayes-yellow.svg)]() [![XGBoost](https://img.shields.io/badge/-XGBoost-brightgreen.svg)](https://xgboost.readthedocs.io/) [![LightGBM](https://img.shields.io/badge/-LightGBM-lightgrey.svg)](https://lightgbm.readthedocs.io/) [![CatBoost](https://img.shields.io/badge/-CatBoost-blueviolet.svg)](https://catboost.ai/) [![CNN](https://img.shields.io/badge/-CNN-deeppink.svg)]()
 
 ###
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/credit_card_image.png?raw=true)
