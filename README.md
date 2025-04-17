@@ -30,7 +30,8 @@ The dataset comprises only numerical input variables resulting from a PCA (Princ
 ├── README.md           # Project documentation
 └── LICENSE
 ```
-## 🔎 Project Pipeline
+## 🔄 Project Workflow
+
 1. Data Loading & Exploration  
 2. Preprocessing (Scaling, Balancing, Train-Test Split)  
 3. Exploratory Data Analysis (EDA)  
