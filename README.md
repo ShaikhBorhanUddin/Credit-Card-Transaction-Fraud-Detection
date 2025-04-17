@@ -78,8 +78,27 @@ Confusion Matrix of 9 machine learning models are included here. Click image for
 </p>
 The imbalance present in the dataset significantly impacted the performance of models like Logistic Regression, Support Vector Machine, K-Nearest Neighbor, and SGD Classifier; preventing them from achieving optimal results. However, other models demonstrated remarkable effectiveness and delivered satisfactory outcomes.
 
+###
+
+<p align="left">
+  <img src="Images/cm_CNN.png" width="400"/>
+</p>
+This experiment revealed that CNN models struggled to accurately identify spam, much like Logistic Regression and other less effective models. This clearly shows that, while deep learning models excel in various applications, they don't perform well when it comes to analyzing financial data in tabular formats.
+
 ## 📊 ROC Curve Comparison
 ![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
+
+In this experiment, ROC curves were generated for all models to compare their ability to distinguish between fraudulent and legitimate transactions. Models like XGBoost, LightGBM, and Random Forest showed ROC curves that hugged the top-left corner, indicating strong discriminatory power.
+
+`⚠️ Limitations of ROC in Imbalanced Datasets`
+
+While ROC curves are widely used, they can be misleading in highly imbalanced datasets — such as this one, where fraudulent transactions make up a tiny fraction of the total data. Here’s why:
+- False Positive Rate can appear low even when the model makes many false predictions, simply because the number of negative (legit) cases is so high.
+- This can result in inflated ROC-AUC scores, giving a false sense of performance.
+- A model might achieve a high AUC but still fail to catch most fraud cases — which is unacceptable in real-world scenarios.
+
+For this reason, Precision-Recall curves and Recall-focused metrics (like F1-Score and Recall) are often more reliable indicators of model effectiveness in fraud detection tasks.
+
 
 ## 🎯 Key Takeaways
 - Accuracy alone is misleading for imbalanced datasets; **Recall**, **F1-score**, and **AUC** are critical.  
