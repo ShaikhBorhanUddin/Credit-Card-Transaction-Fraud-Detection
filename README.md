@@ -1,4 +1,4 @@
-# Credit Card Transaction Fraud Detection Project
+# Credit Card Transaction Fraud Detection
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]() [![Status](https://img.shields.io/badge/Status-Completed-green.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
 ![Model](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg) 
