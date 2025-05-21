@@ -108,8 +108,9 @@ Confusion Matrix of 9 machine learning models are included here. Click image for
 <p align="left">
   <img src="Images/cm_ML_Models.png" width="998"/>
 </p>
-The imbalance present in the dataset significantly impacted the performance of models like Logistic Regression, Support Vector Machine, K-Nearest Neighbor, and SGD Classifier; preventing them from achieving optimal results. However, other models demonstrated remarkable effectiveness and delivered satisfactory outcomes.
+The confusion matrices for Logistic Regression (LR), Support Vector Machine (SVM), and Stochastic Gradient Descent (SGD) Classifier reveal a major flaw: all three models completely failed to identify any positive class (label 1). They predicted every instance as the negative class (label 0), achieving high true negatives (368,526) but zero true positives. Consequently, they have perfect accuracy for the majority class but a recall of 0% for the minority class, making them highly unreliable for imbalanced classification tasks like fraud or anomaly detection. This failure suggests these models are heavily biased toward the dominant class and cannot distinguish meaningful patterns in the minority class due to poor model sensitivity and lack of class balance handling.
 
+In contrast, the other six models — Decision Tree, Random Forest, K-Nearest Neighbors (KNN), AdaBoost, XGBoost, and LightGBM — all show better capability in identifying the positive class to varying degrees. Among these, XGBoost demonstrated the best overall performance, with 1,334 true positives and only 619 false negatives, along with 142 false positives, achieving a solid balance between precision and recall. Random Forest and LightGBM also performed well, with LightGBM producing 1,272 true positives and 424 false positives. AdaBoost and Decision Tree lag slightly behind, especially in recall. KNN performed the worst among these six, misclassifying a large number of positive instances. Overall, XGBoost stands out due to its strong handling of class imbalance and superior precision-recall trade-off, making it the most reliable model for this classification task.
 ###
 
 <p align="left">
