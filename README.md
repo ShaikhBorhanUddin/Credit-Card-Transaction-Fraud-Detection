@@ -121,7 +121,10 @@ This experiment revealed that CNN models struggled to accurately identify spam, 
 ## 📊 ROC Curve Comparison
 ![ROC Curve](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/ROC.png?raw=true)
 
-In this experiment, ROC curves were generated for all models to compare their ability to distinguish between fraudulent and legitimate transactions. Models like XGBoost, LightGBM, and Random Forest showed ROC curves that hugged the top-left corner, indicating strong discriminatory power.
+In this experiment, ROC curves were generated for all models to compare their ability to distinguish between fraudulent and legitimate transactions. Among all models tested, XGBoost achieved a perfect AUC score of 1.00, indicating ideal classification performance. Random Forest followed closely with an AUC of 0.99, also showing excellent discriminative capability. AdaBoost performed similarly well, with an AUC of 0.98, confirming its robustness in handling the class imbalance in the dataset. LightGBM showed strong predictive power with an AUC of 0.91, surpassing most traditional models. The Decision Tree model recorded an AUC of 0.88, offering decent performance but not at par with the ensemble methods. K-Nearest Neighbors (KNN) delivered moderate results with an AUC of 0.73, while Logistic Regression had the lowest AUC score of 0.55, indicating performance close to random guessing.
+
+Overall, the ROC analysis highlights that ensemble models, particularly XGBoost, Random Forest, and AdaBoost, are highly effective in identifying fraudulent transactions in the dataset, significantly outperforming simpler models like Logistic Regression and KNN.
+
 
 **`⚠️ Limitations of ROC in Imbalanced Datasets`**
 
