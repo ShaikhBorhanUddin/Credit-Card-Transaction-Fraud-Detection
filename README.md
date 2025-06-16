@@ -163,7 +163,9 @@ For this reason, Precision-Recall curves and Recall-focused metrics (like F1-Sco
 - **Naive Bayes** achieved high recall but with excessive false positives.  
 
 ## 🛠 Technologies Used
-`Python`  `Pandas` ` NumPy` `Matplotlib` ` Seaborn` `Scikit-learn` `TensorFlow` `Keras`
+`Python`  `Pandas` ` NumPy` `Matplotlib` ` Seaborn` `Scikit-learn` `TensorFlow` `Keras`  
+
+This project was developed using Python and utilized various libraries for effective data manipulation and preprocessing, including Pandas and NumPy. Machine learning models were created with Scikit-learn, while deep learning models, such as Convolutional Neural Networks (CNN), were implemented using Keras and TensorFlow. For data visualization and exploratory data analysis, Matplotlib and Seaborn were used, which provided clear insights into model performance and the characteristics of the dataset.
 
 ## ▶️ How to Run Locally
 1. Clone the repository:  
