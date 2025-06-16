@@ -137,7 +137,7 @@ For this reason, Precision-Recall curves and Recall-focused metrics (like F1-Sco
 
 
 ## 🎯 Key Takeaways
-- Accuracy alone is misleading for imbalanced datasets; **Recall**, **F1-score**, and **AUC** are critical.  
+- Accuracy alone is misleading for imbalanced datasets; **Recall**, **F1-score**, and **AUC** play an important role here.  
 - **XGBoost**, **Gradient Boosting**, and **LightGBM** consistently performed the best.  
 - The custom-built **CNN** model showed excellent results, proving deep learning can complement traditional models.  
 - **Naive Bayes** achieved high recall but with excessive false positives.  
