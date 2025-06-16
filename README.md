@@ -1,11 +1,31 @@
-# Credit Card Transaction Fraud Detection
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]() [![Status](https://img.shields.io/badge/Status-Completed-green.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+# Credit Card Transaction Fraud Detection  
+<p align="left">
+  <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection" alt="Issues">
+  <img src="https://img.shields.io/badge/Framework-Scikit--Learn-orange?logo=scikitlearn" alt="Framework: Scikit-Learn">
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle" alt="Dataset: Kaggle">
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection?style=social" alt="Forks">
+  <img src="https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg" alt="Model: Logistic Regression">
+  <img src="https://img.shields.io/badge/-Random%20Forest-green.svg" alt="Model: Random Forest">
+  <img src="https://img.shields.io/badge/-Decision%20Tree-orange.svg" alt="Model: Decision Tree">
+  <img src="https://img.shields.io/badge/-KNN-purple.svg" alt="Model: K-Nearest Neighbors">
+  <img src="https://img.shields.io/badge/-SVM-red.svg" alt="Model: Support Vector Machine">
+  <img src="https://img.shields.io/badge/-Naive%20Bayes-yellow.svg" alt="Model: Naive Bayes">
+  <a href="https://xgboost.readthedocs.io/"><img src="https://img.shields.io/badge/-XGBoost-brightgreen.svg" alt="Model: XGBoost"></a>
+  <a href="https://lightgbm.readthedocs.io/"><img src="https://img.shields.io/badge/-LightGBM-lightgrey.svg" alt="Model: LightGBM"></a>
+  <a href="https://catboost.ai/"><img src="https://img.shields.io/badge/-CatBoost-blueviolet.svg" alt="Model: CatBoost"></a>
+  <img src="https://img.shields.io/badge/-CNN-deeppink.svg" alt="Model: Convolutional Neural Network">
+  <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white" alt="Version Control: Git">
+  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github&logoColor=white" alt="Host: GitHub">
+  <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
+</p>
 
-![Model](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg) 
-[![Logistic Regression](https://img.shields.io/badge/-Random%20Forest-green.svg)]() [![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-orange.svg)]() [![KNN](https://img.shields.io/badge/-KNN-purple.svg)]() [![SVM](https://img.shields.io/badge/-SVM-red.svg)]() [![Naive Bayes](https://img.shields.io/badge/-Naive%20Bayes-yellow.svg)]() [![XGBoost](https://img.shields.io/badge/-XGBoost-brightgreen.svg)](https://xgboost.readthedocs.io/) [![LightGBM](https://img.shields.io/badge/-LightGBM-lightgrey.svg)](https://lightgbm.readthedocs.io/) [![CatBoost](https://img.shields.io/badge/-CatBoost-blueviolet.svg)](https://catboost.ai/) [![CNN](https://img.shields.io/badge/-CNN-deeppink.svg)]()
 
-###
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Credit-Card-Transaction-Fraud-Detection-Project/blob/main/Images/credit_card_image.png?raw=true)
+
 ## 🚀 Project Overview
 
 Credit card fraud continues to be a major challenge for both consumers and financial institutions, leading to billions of dollars in losses annually. With the growing volume of online transactions, detecting fraudulent activity in real time has become more critical than ever. This project addresses this pressing issue by leveraging machine learning to develop a data-driven solution aimed at identifying fraudulent credit card transactions with greater accuracy and efficiency. 
